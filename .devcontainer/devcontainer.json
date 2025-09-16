@@ -13,7 +13,12 @@
 			"source": "${localEnv:USERPROFILE}\\.netrc",
 			"target": "/home/vscode/.netrc",
 			"type": "bind"
-		}
+		} //,
+		// {
+		// 	"source": "Z:\\projects\\hello-template",
+		// 	"target": "/workspaces/pi_zero_env/hello-template",
+		// 	"type": "bind"
+		// }
 	],
 	"customizations": {
 		"vscode": {
